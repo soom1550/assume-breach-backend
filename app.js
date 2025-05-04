@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const resultsRouter = require('./routes/results');
+const resultsRouter = require('./results'); // تعديل المسار هنا
 require('dotenv').config();
 
 const app = express();
